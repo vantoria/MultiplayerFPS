@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Plugins", "Networking.Plugins.csproj", "{936980D0-DCEC-2E3F-1F01-4F33F0D288DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "Networking.csproj", "{8C494076-A37A-4F10-F4F7-4CF3B6936C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Editor.Plugins", "Networking.Editor.Plugins.csproj", "{960F73AE-218E-A36A-F4A3-6625F68A46D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{936980D0-DCEC-2E3F-1F01-4F33F0D288DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936980D0-DCEC-2E3F-1F01-4F33F0D288DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936980D0-DCEC-2E3F-1F01-4F33F0D288DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936980D0-DCEC-2E3F-1F01-4F33F0D288DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C494076-A37A-4F10-F4F7-4CF3B6936C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C494076-A37A-4F10-F4F7-4CF3B6936C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C494076-A37A-4F10-F4F7-4CF3B6936C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C494076-A37A-4F10-F4F7-4CF3B6936C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960F73AE-218E-A36A-F4A3-6625F68A46D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960F73AE-218E-A36A-F4A3-6625F68A46D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960F73AE-218E-A36A-F4A3-6625F68A46D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960F73AE-218E-A36A-F4A3-6625F68A46D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
