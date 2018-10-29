@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
-    private float clipSize;
+    private float mouseSensitivity;
+
+    [Header("Player Stats")]
+    public float playerHP;
     [SerializeField]
-    private float jumpHeight, moveSpeed, mouseSensitivity;   
+    private float jumpHeight;
+    [SerializeField]
+    private float moveSpeed;
 
-    public GameObject shootingPoint;
-
-    [Header("Jump Setting")]
-    
     //movement
     private Rigidbody rb;
     Camera mainCam;
@@ -20,6 +22,7 @@ public class playerController : MonoBehaviour
     private float cameraRotX, currCameraX;
     private bool isJump;
     private float CameraRotLimit = 85f;
+    #endregion
 
     // Use this for initialization
     void Start()
@@ -67,13 +70,8 @@ public class playerController : MonoBehaviour
         cameraRotX = mouseY * mouseSensitivity;
         playerVel = (movHor + movVer).normalized * moveSpeed;
 
-        Debug.Log(upForce);
-    }
+    } 
 
-    void shoot(float clipSize)
-    {
-
-    }
 
     void isGrounded(GameObject startPoint)
     {

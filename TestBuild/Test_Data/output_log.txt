@@ -1,12 +1,12 @@
-Mono path[0] = 'D:/Projects/Networking/TestBuild/Test_Data/Managed'
-Mono path[1] = 'D:/Projects/Networking/TestBuild/Test_Data/Mono'
-Mono config path = 'D:/Projects/Networking/TestBuild/Test_Data/Mono/etc'
-PlayerConnection initialized from D:/Projects/Networking/TestBuild/Test_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55218
-Multi-casting "[IP] 192.168.3.11 [Port] 55218 [Flags] 2 [Guid] 2464773764 [EditorId] 2840550151 [Version] 1048832 [Id] WindowsPlayer(Maayu) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55218]
-PlayerConnection already initialized - listening to [0.0.0.0:55218]
-Player data archive not found at `D:/Projects/Networking/TestBuild/Test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.5f1 (2cac56bf7bb6)
+Mono path[0] = 'D:/Projects/MultiplayerFPS/TestBuild/Test_Data/Managed'
+Mono path[1] = 'D:/Projects/MultiplayerFPS/TestBuild/Test_Data/Mono'
+Mono config path = 'D:/Projects/MultiplayerFPS/TestBuild/Test_Data/Mono/etc'
+PlayerConnection initialized from D:/Projects/MultiplayerFPS/TestBuild/Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55296
+Multi-casting "[IP] 192.168.3.11 [Port] 55296 [Flags] 2 [Guid] 2991314872 [EditorId] 3258206600 [Version] 1048832 [Id] WindowsPlayer(Maayu) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55296]
+PlayerConnection already initialized - listening to [0.0.0.0:55296]
+Player data archive not found at `D:/Projects/MultiplayerFPS/TestBuild/Test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.5f1 (2cac56bf7bb6)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -15,29 +15,33 @@ Direct3D:
     VRAM:     3072 MB
     Driver:   25.21.14.1634
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\Projects\Networking\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Projects\Networking\TestBuild\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Projects\Networking\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.020 seconds
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Projects\Networking\TestBuild\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Projects\MultiplayerFPS\TestBuild\Test_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1280x1024 60Hz; virtual: 3200x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.004169 ms
+The class named 'PlayerWeapon' is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1515)
+
+UnloadTime: 1.097314 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 2468 -> priority: 1 
-  Thread -> id: 32a4 -> priority: 1 
-  Thread -> id: 304c -> priority: 1 
-  Thread -> id: 4f0c -> priority: 1 
+  Thread -> id: 3ed8 -> priority: 1 
+  Thread -> id: 406c -> priority: 1 
+  Thread -> id: 3248 -> priority: 1 
+  Thread -> id: 1f10 -> priority: 1 
 The prefab 'player' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -46,30 +50,108 @@ UnityEngine.Debug:LogWarning(Object)
 UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:134)
 UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:437)
 UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:383)
-UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:563)
-UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:551)
-UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:88)
+UnityEngine.Networking.NetworkManager:StartClient(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:463)
+UnityEngine.Networking.NetworkManager:StartClient(MatchInfo, ConnectionConfig) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:517)
+UnityEngine.Networking.NetworkManager:StartClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:512)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:95)
  
 (Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 134)
 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:53817} time {90222}, last rec time {87975} rtt {12} timeout {2000}
-connection in user state {32}
-ServerDisconnected due to error: Timeout
+The class named 'PlayerWeapon' is not derived from MonoBehaviour or ScriptableObject!
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:539)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp line 1515] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineObjectBindings.gen.cs Line: 53)
+
+The class named 'PlayerWeapon' is not derived from MonoBehaviour or ScriptableObject!
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:53)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:156)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:206)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:539)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp line 1515] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineObjectBindings.gen.cs Line: 53)
+
+hit player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:38)
+PlayerShoot:Update() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:26)
+ 
+(Filename: D:/Projects/MultiplayerFPS/Assets/Scripts/PlayerShoot.cs Line: 38)
+
+hit player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:38)
+PlayerShoot:Update() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:26)
+ 
+(Filename: D:/Projects/MultiplayerFPS/Assets/Scripts/PlayerShoot.cs Line: 38)
+
+hit player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:38)
+PlayerShoot:Update() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:26)
+ 
+(Filename: D:/Projects/MultiplayerFPS/Assets/Scripts/PlayerShoot.cs Line: 38)
+
+hit player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:38)
+PlayerShoot:Update() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:26)
+ 
+(Filename: D:/Projects/MultiplayerFPS/Assets/Scripts/PlayerShoot.cs Line: 38)
+
+hit player
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:38)
+PlayerShoot:Update() (at D:\Projects\MultiplayerFPS\Assets\Scripts\PlayerShoot.cs:26)
+ 
+(Filename: D:/Projects/MultiplayerFPS/Assets/Scripts/PlayerShoot.cs Line: 38)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {34329}, last rec time {31836} rtt {11} timeout {2000}
+ClientDisconnected due to error: Timeout
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
-UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1008)
-UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:856)
+UnityEngine.Networking.NetworkManager:OnClientDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1134)
+UnityEngine.Networking.NetworkManager:OnClientDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:964)
 UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
 UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
-UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:715)
-UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1861)
-UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:253)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:771)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1008)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1134)
 
