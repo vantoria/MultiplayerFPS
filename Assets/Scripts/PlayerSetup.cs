@@ -27,9 +27,15 @@ public class PlayerSetup : NetworkBehaviour
         }
 
         // register player
-        string ID = "Player " + GetComponent<NetworkIdentity>().netId;
-        transform.name = ID;
 
+    }
+
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
+        string _netID = GetComponent<NetworkIdentity>().netId.ToString();
+        PlayerManager _player = GetComponent<PlayerManager>();
+        GameManager.RegisterPlayer(_netID, _player);
     }
 
     private void OnDisable()
@@ -48,6 +54,8 @@ public class PlayerSetup : NetworkBehaviour
         {
             DisableComponent[i].enabled = false;
         }
+
+        GameManager.DeRegisterPlayer(transform.name);
     }
 }
 	

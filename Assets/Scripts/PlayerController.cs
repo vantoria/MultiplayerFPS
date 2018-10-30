@@ -73,9 +73,4 @@ public class PlayerController : MonoBehaviour
     } 
 
 
-    void isGrounded(GameObject startPoint)
-    {
-
-    }
-
 }
