@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour{
@@ -6,7 +6,9 @@ public class GameManager : MonoBehaviour{
     private const string PLAYER_PREFIX = "Player ";
 
     private static Dictionary<string, PlayerManager> players = new Dictionary<string, PlayerManager>();
-
+    
+    // register newly connected player into the library
+    // サーバーに新しく繋がるプレーヤーをライブラリに登録します
     public static void RegisterPlayer(string _NetID, PlayerManager _player)
     {
         string _playerID = PLAYER_PREFIX + _NetID;
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour{
         _player.transform.name = _playerID;
     }
 
+    // get player ID プレーヤーのIDゲット
     public static PlayerManager GetPlayer(string _playerID)
     {
         if (!players.ContainsKey(_playerID))
@@ -24,9 +27,11 @@ public class GameManager : MonoBehaviour{
         return players[_playerID];
     }
 
+    // unregister player when disconnected
+    // プレーヤーが切断時ライブラリから削除します
     public static void DeRegisterPlayer(string _playerID)
     {
-      //  players.Remove(_playerID);
+        players.Remove(_playerID);
     }
 
     void OnGUI()
@@ -42,4 +47,5 @@ public class GameManager : MonoBehaviour{
         GUILayout.EndVertical();
         GUILayout.EndArea();
     }
+
 }

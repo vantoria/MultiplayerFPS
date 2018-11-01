@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerSetup : NetworkBehaviour
@@ -26,7 +24,7 @@ public class PlayerSetup : NetworkBehaviour
             if (SceneCamera != null) SceneCamera.gameObject.SetActive(false);
         }
 
-        // register player
+        GetComponent<PlayerManager>().Setup();
 
     }
 
@@ -41,6 +39,7 @@ public class PlayerSetup : NetworkBehaviour
     private void OnDisable()
     {
         if (SceneCamera != null) SceneCamera.gameObject.SetActive(true);
+        GameManager.DeRegisterPlayer(transform.name);
     }
     
     void AssignRemoteLayer()
@@ -54,8 +53,6 @@ public class PlayerSetup : NetworkBehaviour
         {
             DisableComponent[i].enabled = false;
         }
-
-        GameManager.DeRegisterPlayer(transform.name);
     }
 }
 	

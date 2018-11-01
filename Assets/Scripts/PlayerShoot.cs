@@ -13,7 +13,6 @@ public class PlayerShoot : NetworkBehaviour
     [SerializeField]
     private LayerMask shotMask;
 
-    // Use this for initialization
     void Start()
     {
         cam = GetComponentInChildren<Camera>();
@@ -25,8 +24,8 @@ public class PlayerShoot : NetworkBehaviour
         {
             Shoot();
         }
-    }
-    
+    }    
+    // client side only function　クライアント側だけ
     [Client]
     void Shoot()
     {
@@ -39,13 +38,14 @@ public class PlayerShoot : NetworkBehaviour
             }
         }
     }
-
+    
+    // send the data to server サーバに情報を送りします。
     [Command]
     void CmdPlayerShot(string playerID, int _damage)
     {
         Debug.Log(playerID + "has been shot.");
         PlayerManager _player = GameManager.GetPlayer(playerID);
-        _player.TakeDamage(_damage);
+        _player.RpcTakeDamage(_damage);
     }
 
 }
