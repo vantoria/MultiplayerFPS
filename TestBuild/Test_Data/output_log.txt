@@ -1,33 +1,33 @@
-Mono path[0] = 'C:/Users/student/Desktop/MultiplayerFPS/TestBuild/Test_Data/Managed'
-Mono path[1] = 'C:/Users/student/Desktop/MultiplayerFPS/TestBuild/Test_Data/Mono'
-Mono config path = 'C:/Users/student/Desktop/MultiplayerFPS/TestBuild/Test_Data/Mono/etc'
-PlayerConnection initialized from C:/Users/student/Desktop/MultiplayerFPS/TestBuild/Test_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55428
-Multi-casting "[IP] 172.19.71.128 [Port] 55428 [Flags] 2 [Guid] 3211335878 [EditorId] 1675920423 [Version] 1048832 [Id] WindowsPlayer(302-03) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55428]
-PlayerConnection already initialized - listening to [0.0.0.0:55428]
-Player data archive not found at `C:/Users/student/Desktop/MultiplayerFPS/TestBuild/Test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.5f1 (2cac56bf7bb6)
+Mono path[0] = 'C:/Users/student/Desktop/MultiplayerFPS-master/TestBuild/Test_Data/Managed'
+Mono path[1] = 'C:/Users/student/Desktop/MultiplayerFPS-master/TestBuild/Test_Data/Mono'
+Mono config path = 'C:/Users/student/Desktop/MultiplayerFPS-master/TestBuild/Test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/student/Desktop/MultiplayerFPS-master/TestBuild/Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55459
+Multi-casting "[IP] 172.19.70.114 [Port] 55459 [Flags] 2 [Guid] 1555548731 [EditorId] 4255282350 [Version] 1048832 [Id] WindowsPlayer(W301-07) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55459]
+PlayerConnection already initialized - listening to [0.0.0.0:55459]
+Player data archive not found at `C:/Users/student/Desktop/MultiplayerFPS-master/TestBuild/Test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.5f1 (2cac56bf7bb6)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K2200 (ID=0x13ba)
+    Renderer: NVIDIA Quadro 2000 (ID=0xdd8)
     Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   23.21.13.8819
+    VRAM:     979 MB
+    Driver:   21.21.13.7783
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.022 seconds
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\student\Desktop\MultiplayerFPS\TestBuild\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\student\Desktop\MultiplayerFPS-master\TestBuild\Test_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
@@ -36,10 +36,10 @@ The class named 'PlayerWeapon' is not derived from MonoBehaviour or ScriptableOb
  
 (Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1515)
 
-UnloadTime: 1.169129 ms
+UnloadTime: 1.614853 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: b48 -> priority: 1 
-  Thread -> id: 2cb0 -> priority: 1 
+  Thread -> id: 4c0 -> priority: 1 
+  Thread -> id: 2418 -> priority: 1 
 The prefab 'player' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -92,7 +92,7 @@ UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -103,14 +103,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 80
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -121,14 +121,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 70
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -139,14 +139,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 60
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -157,14 +157,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 50
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -175,14 +175,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 40
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -193,14 +193,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 30
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -211,14 +211,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 20
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -229,14 +229,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 10
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -247,14 +247,14 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2now HP is 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:49)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -265,15 +265,15 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 49)
 
 Player 2 is dead!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-PlayerManager:PlayerDie() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:69)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:53)
+PlayerManager:PlayerDie() (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:69)
+PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:53)
 PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
 UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
 UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
@@ -284,433 +284,31 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 69)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 69)
 
 Player 2 respanwed
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-<Respawn>c__Iterator0:MoveNext() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:82)
+<Respawn>c__Iterator0:MoveNext() (at C:\Users\student\Desktop\MultiplayerFPS-master\Assets\Scripts\PlayerManager.cs:82)
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 82)
+(Filename: C:/Users/student/Desktop/MultiplayerFPS-master/Assets/Scripts/PlayerManager.cs Line: 82)
 
-Player 1now HP is 90
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {29626}, last rec time {27131} rtt {11} timeout {2000}
+ClientDisconnected due to error: Timeout
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:OnClientDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1134)
+UnityEngine.Networking.NetworkManager:OnClientDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:964)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:771)
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 80
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 70
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 60
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 50
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 40
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 30
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 20
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 10
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1now HP is 0
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 1 is dead!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:PlayerDie() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:69)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:53)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 69)
-
-Player 1 respanwed
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<Respawn>c__Iterator0:MoveNext() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:82)
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 82)
-
-Player 2now HP is 90
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 80
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 70
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 60
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 50
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 40
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 30
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 20
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 10
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2now HP is 0
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:49)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 49)
-
-Player 2 is dead!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayerManager:PlayerDie() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:69)
-PlayerManager:RpcTakeDamage(Int32) (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:53)
-PlayerManager:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
-UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
-UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:753)
-UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:965)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 69)
-
-Player 2 respanwed
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<Respawn>c__Iterator0:MoveNext() (at C:\Users\student\Desktop\MultiplayerFPS\Assets\Scripts\PlayerManager.cs:82)
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
- 
-(Filename: C:/Users/student/Desktop/MultiplayerFPS/Assets/Scripts/PlayerManager.cs Line: 82)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1134)
 

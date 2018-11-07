@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float moveSpeed;
 
+    private bool isGrounded;
+
     //movement
     private Rigidbody rb;
     Camera mainCam;
@@ -70,7 +72,12 @@ public class PlayerController : MonoBehaviour
         cameraRotX = mouseY * mouseSensitivity;
         playerVel = (movHor + movVer).normalized * moveSpeed;
 
-    } 
+    }
+
+    private void GroundedCheck()
+    {
+
+    }
 
 
 }

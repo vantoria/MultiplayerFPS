@@ -5,8 +5,8 @@ public class PlayerShoot : NetworkBehaviour
 
 {    private const string PLAYERTAG = "Player";
 
+    [SerializeField]
     public PlayerWeapon weapon;
-
     [SerializeField]
     private Camera cam;
 
