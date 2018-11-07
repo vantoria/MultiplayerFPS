@@ -62,7 +62,10 @@ public class PlayerController : MonoBehaviour
 
         //jumping
         upForce = Vector3.zero;
-        if (Input.GetButton("Jump"))   isJump = true;
+        if (Input.GetButton("Jump") && isGrounded)
+        {
+            isJump = true;
+        }
         else isJump = false;
         if (isJump) upForce = Vector3.up * jumpHeight;
 
@@ -71,13 +74,16 @@ public class PlayerController : MonoBehaviour
         playerRot = new Vector3(0f, mouseX, 0f) * mouseSensitivity;
         cameraRotX = mouseY * mouseSensitivity;
         playerVel = (movHor + movVer).normalized * moveSpeed;
-
+        GroundedCheck();
     }
 
     private void GroundedCheck()
     {
-
+        RaycastHit hit;
+        if (Physics.Raycast(rb.transform.position, -rb.transform.up, out hit, 0.1f))
+        {
+            isGrounded = true;
+        }
+        else isGrounded = false;
     }
-
-
 }
